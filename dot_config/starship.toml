@@ -43,7 +43,7 @@ commit_hash_length = 10
 
 [git_status]
 disabled = false
-format = '( $all_status)'
+format = '( $all_status$ahead_behind)'
 conflicted = "🚨"
 deleted = "🚧"
 modified = "🚧"
@@ -54,9 +54,9 @@ typechanged = "🚧"
 untracked = "🚧"
 
 up_to_date = ""
-ahead = "A"
-behind = "B"
-diverged = "D"
+behind = "⏳"
+ahead = "⌛"
+diverged = ""
 
 [git_state]
 disabled = true

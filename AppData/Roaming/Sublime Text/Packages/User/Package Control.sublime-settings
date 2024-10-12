@@ -1,24 +1,30 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
-		"CompletePHP",
 		"FileDiffs",
-		"HTMLBeautify",
-		"Indent XML",
+		"JSON Stringify",
 		"LSL",
 		"LSP",
+		"LSP-file-watcher-chokidar",
 		"LSP-pyright",
+		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"Package Control",
 		"Pretty JSON",
 		"SublimeLinter",
+		"SublimeLinter-contrib-lslint",
+		"SublimeLinter-gcc",
 		"SublimeLinter-shellcheck",
 		"Super Calculator",
 		"URLEncode",
 	],
-	"in_process_packages":
+	"repositories":
 	[
+		"https://github.com/SublimeLinter/SublimeLinter/tree/v3"
 	],
 }
